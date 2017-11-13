@@ -1,7 +1,7 @@
 {
-  "name": "ng2-pdf-viewer",
+  "name": "ng2-pdf-viewer-conzentrate",
   "version": "3.0.1",
-  "description": "Angular2+ component for rendering PDF",
+  "description": "Angular2+ component for rendering PDF - removed iOS (request|cancal)AnimationFrame monkeypatch from pdfjs-dist",
   "main": "dist/index.js",
   "typings": "./dist/index.d.ts",
   "directories": {
@@ -39,11 +39,11 @@
   "homepage": "https://github.com/VadimDez/ng2-pdf-viewer#readme",
   "peerDependencies": {
     "@angular/core": ">=2.2.1",
-    "pdfjs-dist": "^1.9.607"
+    "pdfjs-dist-conzentrate": "1.10.99"
   },
   "dependencies": {
     "@types/pdf": "0.0.31",
-    "pdfjs-dist": "^1.9.607"
+    "pdfjs-dist-conzentrate": "1.10.99"
   },
   "devDependencies": {
     "@angular/animations": "^4.1.0",
