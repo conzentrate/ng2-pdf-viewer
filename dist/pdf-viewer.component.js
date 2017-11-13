@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var pdfjs = require("pdfjs-dist/build/pdf");
-window['pdfjs-dist/build/pdf'] = pdfjs;
-require("pdfjs-dist/web/compatibility");
-require("pdfjs-dist/web/pdf_viewer");
+var pdfjs = require("pdfjs-dist-conzentrate/build/pdf");
+window['pdfjs-dist-conzentrate/build/pdf'] = pdfjs;
+require("pdfjs-dist-conzentrate/web/compatibility");
+require("pdfjs-dist-conzentrate/web/pdf_viewer");
 PDFJS.verbosity = PDFJS.VERBOSITY_LEVELS.errors;
 var PdfViewerComponent = (function () {
     function PdfViewerComponent(element) {

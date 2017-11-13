@@ -4,10 +4,10 @@
 import {
   Component, Input, Output, ElementRef, EventEmitter, OnChanges, SimpleChanges, OnInit, HostListener
 } from '@angular/core';
-import * as pdfjs from 'pdfjs-dist/build/pdf';
-window['pdfjs-dist/build/pdf'] = pdfjs;
-import 'pdfjs-dist/web/compatibility';
-import 'pdfjs-dist/web/pdf_viewer';
+import * as pdfjs from 'pdfjs-dist-conzentrate/build/pdf';
+window['pdfjs-dist-conzentrate/build/pdf'] = pdfjs;
+import 'pdfjs-dist-conzentrate/web/compatibility';
+import 'pdfjs-dist-conzentrate/web/pdf_viewer';
 
 PDFJS.verbosity = (<any>PDFJS).VERBOSITY_LEVELS.errors;
 

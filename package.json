@@ -1,6 +1,6 @@
 {
   "name": "ng2-pdf-viewer-conzentrate",
-  "version": "3.0.1-1",
+  "version": "3.0.1-2",
   "description": "Angular2+ component for rendering PDF - removed iOS (request|cancal)AnimationFrame monkeypatch from pdfjs-dist",
   "main": "dist/index.js",
   "typings": "./dist/index.d.ts",

@@ -1,27 +1,50 @@
 {
-  "_from": "pdfjs-dist@^1.9.607",
-  "_id": "pdfjs-dist@1.9.607",
-  "_inBundle": false,
-  "_integrity": "sha1-tcD18aOIGvBNwS4VNzCGiuITQ1I=",
+  "_args": [
+    [
+      {
+        "raw": "pdfjs-dist@^1.9.607",
+        "scope": null,
+        "escapedName": "pdfjs-dist",
+        "name": "pdfjs-dist",
+        "rawSpec": "^1.9.607",
+        "spec": ">=1.9.607 <2.0.0",
+        "type": "range"
+      },
+      "/Users/tpm/ng2-pdf-viewer/ng2-pdf-viewer"
+    ]
+  ],
+  "_from": "pdfjs-dist@>=1.9.607 <2.0.0",
+  "_id": "pdfjs-dist@1.10.97",
+  "_inCache": true,
   "_location": "/pdfjs-dist",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/pdfjs-dist-1.10.97.tgz_1509483192303_0.09703023312613368"
+  },
+  "_npmUser": {
+    "name": "pdfjsbot",
+    "email": "dev-pdf-js@lists.mozilla.org"
+  },
+  "_npmVersion": "4.1.2",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
     "raw": "pdfjs-dist@^1.9.607",
-    "name": "pdfjs-dist",
+    "scope": null,
     "escapedName": "pdfjs-dist",
+    "name": "pdfjs-dist",
     "rawSpec": "^1.9.607",
-    "saveSpec": null,
-    "fetchSpec": "^1.9.607"
+    "spec": ">=1.9.607 <2.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-1.9.607.tgz",
-  "_shasum": "b5c0f5f1a3881af04dc12e153730868ae2134352",
+  "_resolved": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-1.10.97.tgz",
+  "_shasum": "d3999586c94b75fe5e6e8161a57c449a13a030fb",
+  "_shrinkwrap": null,
   "_spec": "pdfjs-dist@^1.9.607",
-  "_where": "/Users/vadimdez/Documents/my_dev/ng2-pdf-viewer",
+  "_where": "/Users/tpm/ng2-pdf-viewer/ng2-pdf-viewer",
   "browser": {
     "fs": false,
     "http": false,
@@ -31,14 +54,19 @@
   "bugs": {
     "url": "https://github.com/mozilla/pdf.js/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "node-ensure": "^0.0.0",
-    "worker-loader": "^0.8.0"
+    "worker-loader": "^1.0.0"
   },
-  "deprecated": false,
   "description": "Generic build of Mozilla's PDF.js library.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d3999586c94b75fe5e6e8161a57c449a13a030fb",
+    "tarball": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-1.10.97.tgz"
+  },
   "format": "amd",
+  "gitHead": "1db81e5b0083f1d9d84b9551e9b0bacdfb48c2a5",
   "homepage": "http://mozilla.github.io/pdf.js/",
   "keywords": [
     "Mozilla",
@@ -47,10 +75,27 @@
   ],
   "license": "Apache-2.0",
   "main": "build/pdf.js",
+  "maintainers": [
+    {
+      "name": "brendandahl",
+      "email": "brendan.dahl@gmail.com"
+    },
+    {
+      "name": "pdfjsbot",
+      "email": "dev-pdf-js@lists.mozilla.org"
+    },
+    {
+      "name": "yurydelendik",
+      "email": "ydelendik@mozilla.com"
+    }
+  ],
   "name": "pdfjs-dist",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mozilla/pdfjs-dist.git"
   },
-  "version": "1.9.607"
+  "scripts": {},
+  "version": "1.10.97"
 }
